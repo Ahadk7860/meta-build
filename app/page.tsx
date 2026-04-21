@@ -233,11 +233,11 @@ export default function Page() {
           className="mt-8 text-[44px] leading-[1.02] sm:text-7xl md:text-8xl lg:text-[120px] font-semibold tracking-[-0.035em]"
         >
           <span className="shimmer-text animate-shimmer">
-            {done ? "We Ship Today." : "The Meta Build"}
+            {done ? "We Ship Today." : "Days Left to Build"}
           </span>
           <br />
           <span className="text-white/50 font-normal">
-            {done ? "Zero hour." : "begins now."}
+            {done ? "Zero hour." : "the Next Meta."}
           </span>
         </motion.h1>
 
